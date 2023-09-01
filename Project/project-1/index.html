@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Solar System: Document Object Model:30 Days Of JavaScript</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+
+<style>
+
+
+    header {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    body {
+        font-family: sans-serif;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url(./image/galaxy.gif);
+        color: white;
+    }
+
+    
+    h1 {
+        font-size: 50px;
+    }
+
+    select {
+        width: 300px;
+        height: 48px;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+    }
+
+    button {
+        width: 150px;
+        height: 50px;
+        background-color: gray;
+    }
+
+    h2 {
+        display: flex;
+    text-align: center; /* Metni yatay olarak ortalar */
+    color: white;
+    margin-right: 10px; /* İstediğiniz kadar sağ boşluk ekleyebilirsiniz */
+    }
+
+    .flex-item {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1200px;
+        height: 600px;
+        background-color: gray;
+        background-color: rgba(128, 128, 128, 0.5);
+    }
+img {
+    margin-right: 50px;
+}
+
+</style>
+<body>
+	<header>
+		<h1>Calculate a weight of an object on a planet</h1>
+	<main>
+        <input type="number" id="veriInput" placeholder="Mass in Kilogram" />
+        
+		<select id="secim">
+			<option value='none'>--select planet-- </option>
+            <option value='Earth'>Earth</option>
+            <option value='Jupiter'>Jupiter</option>
+            <option value='Mars'>Mars</option>
+            <option value='Mercury'>Mercury</option>
+            <option value='Moon'>Moon</option>
+            <option value='Neptune'>Neptune</option>
+            <option value='Pluto'>Pluto</option>
+            <option value='Saturn'>Saturn</option>
+            <option value='uranus'>Uranus</option>
+            <option value='Venus'>Venus</option>
+		</select>
+        <button onclick="hesaplaAgirlik()">Calculate weight</button>
+	</header>
+			<div class="flex-item">
+                <!-- <img src='./image/earth.png' class="planet-image" /> -->
+                <img id="gezegenResmi" src="./image/earth.png" alt="Gezegen Resmi">
+                <h2 id="h2"></h2>
+			</div>
+
+
+	</main>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
+
+
 
