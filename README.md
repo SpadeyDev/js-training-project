@@ -10,4 +10,7 @@ Bu projeyi klonlayın ve egzersizleri inceleyin.<br> Her bir egzersizin kendi a�
 
 Eğer bu projeye katkıda bulunmak isterseniz, <br>lütfen forklayın ve pull request gönderin.
 
+## Projeler
+Projelerin hiç biri bana ait değildir. 
+Kendimi geliştirmek için bulduğum projelerin çözümleridir sadece.
 
